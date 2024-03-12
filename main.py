@@ -15,9 +15,13 @@ operandTwo += realnumber2
 print("SECOND>", operandTwo)
 
 sum = operandOne + operandTwo
+sum = round(sum, 1)
 quotient = operandOne / operandTwo
+quotient = round(quotient, 1)
 product = operandOne * operandTwo
+product = round(product, 1)
 remainder = operandOne % operandTwo
+remainder = round(remainder, 1)
 print("The product of ", operandOne, " and ", operandTwo, " is ", product)
 print("OUTPUT ", product)
 print("The quotient of ", operandOne, " and ", operandTwo, " is ", quotient)
@@ -25,3 +29,4 @@ print("OUTPUT ", quotient)
 print("The sum of ", operandOne, " and ", operandTwo, " is ", sum)
 print("OUTPUT ", sum)
 print("The remainder of ", operandOne, " and ", operandTwo, " is ", remainder)
+print("OUTPUT ", remainder)
